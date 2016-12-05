@@ -86,3 +86,12 @@ hr{
 .proyecto p{
    
 }
+
+/*------------------------------------------IMAGENES-------------*/
+.contactame{
+    text-align: center;
+}
+
+.contactame .icon-envelope, .icon-phone{
+    color: black;
+}
