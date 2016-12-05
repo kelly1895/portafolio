@@ -1,0 +1,88 @@
+/* Tu CSS va aqui */
+*{
+   outline: 1px solid blue;
+}
+
+/*---------------------------------------------HEADER---------------*/
+header{
+    text-align: center;
+    background: url(../img/header.jpg);
+    background-size: cover;
+}
+header .navbar{
+    margin: 0;!important
+}
+
+header .menu  ul {
+    float: right;
+}
+
+.info {
+    color: white;
+    margin: 200px 0;
+}
+.info .linea{
+    width: 35px;
+   border: 1px solid rgb(240,95,64);
+}
+
+.info button{
+    background: rgb(240,95,64);!important
+    border-color: rgb(240,95,64);
+    border-radius: 40px;!important
+}
+/*---------------------------------------------MENU_2---------------*/
+ .navbar{
+    margin: 0;!important 
+}
+.navbar .menu  ul {
+    float: right;
+}
+.navbar{
+    background:rgb(224,207,188);
+}
+
+/*---------------------------------------------INFORMACION---------------*/
+.informacion{
+    color: white;
+    text-align: center;
+    background: rgb(240,95,64);
+}
+hr{
+    width: 40px;
+}
+.sobre{
+     margin-bottom: 100px;
+}
+
+.sobre p{
+    
+   
+}
+/*---------------------------------------------SERVICIOS-------------*/
+.servicios{
+    text-align: center;
+    margin: 80px 0;
+}
+
+.icon-container i{
+    font-size: 40px;
+    color: rgb(240,95,64);
+}
+
+/*------------------------------------------IMAGENES-------------*/
+
+/*------------------------------------------IMAGENES-------------*/
+.github{
+    background: black;
+}
+
+.proyecto{
+    text-align: center;
+    color: white;
+    padding: 50px 0;
+}
+
+.proyecto p{
+   
+}
