@@ -1,7 +1,4 @@
 /* Tu CSS va aqui */
-*{
-   outline: 1px solid blue;
-}
 
 .navbar {
     background: none;
@@ -123,3 +120,6 @@ hr{
 .contactame .icon-phone{
     color: black;
 }
+
+
+/*------------------------------------------IMAGENES-------------*/
