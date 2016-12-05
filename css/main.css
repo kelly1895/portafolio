@@ -3,43 +3,69 @@
    outline: 1px solid blue;
 }
 
-/*---------------------------------------------HEADER---------------*/
-header{
-    text-align: center;
-    background: url(../img/header.jpg);
+.navbar {
+    background: none;
+    border: none;
+}
+/*--------------------------------------------------------------------------------------------------------HEADER*/
+.nav {
+    padding: 0 20px 0 0;
+}
+.navbar a {
+    color:#fff !important;
+}
+.nav li a:hover, .nav li a:focus {
+    font-weight: bold !important;
+}
+.nav li:hover {
+    font-size:18px;
+    transition:all 0.5s;
+}
+
+
+/*--------------------------------------------------------------------------------------------------------HERO*/
+.hero {
+    background: url(../img/header.jpg) no-repeat;
     background-size: cover;
-}
-header .navbar{
-    margin: 0;!important
-}
-
-header .menu  ul {
-    float: right;
-}
-
-.info {
+    padding-bottom: 300px;
     color: white;
-    margin: 200px 0;
+
 }
-.info .linea{
-    width: 35px;
-   border: 1px solid rgb(240,95,64);
+.hero hr {
+    width: 30px;
+    border-top:2px solid tomato;
+}
+.hero .btn {
+    background-color: tomato;
+    border-radius: 15px;
+    font-size: 12px;
+}
+.hero .btn:hover {
+    background-color: #edce21;
+    color:#fff;
+}
+.hero .frase{
+    padding-top: 200px;
+    color: white;
+    
+}
+.hero  h1{
+    font-size: 50px;
 }
 
-.info button{
-    background: rgb(240,95,64);!important
-    border-color: rgb(240,95,64);
-    border-radius: 40px;!important
+/* Here starts section About */
+.about {
+    background-color:  tomato; 
+    color: #fff;
+    padding: 20px 0 60px 0;
 }
-/*---------------------------------------------MENU_2---------------*/
- .navbar{
-    margin: 0;!important 
+
+.about h4{
+    color: #fff;
 }
-.navbar .menu  ul {
-    float: right;
-}
-.navbar{
-    background:rgb(224,207,188);
+.line1 { 
+    border-top: 2px solid #fff;
+    width: 50px;
 }
 
 /*---------------------------------------------INFORMACION---------------*/
@@ -55,10 +81,7 @@ hr{
      margin-bottom: 100px;
 }
 
-.sobre p{
-    
-   
-}
+
 /*---------------------------------------------SERVICIOS-------------*/
 .servicios{
     text-align: center;
@@ -71,7 +94,10 @@ hr{
 }
 
 /*------------------------------------------IMAGENES-------------*/
-
+.container-fluid .col-md-4{
+    margin: 0;
+    padding: 0;
+}
 /*------------------------------------------IMAGENES-------------*/
 .github{
     background: black;
@@ -83,15 +109,17 @@ hr{
     padding: 50px 0;
 }
 
-.proyecto p{
-   
-}
+
 
 /*------------------------------------------IMAGENES-------------*/
 .contactame{
     text-align: center;
 }
 
-.contactame .icon-envelope, .icon-phone{
+.contactame .icon-envelope{
+    color: black;
+}
+
+.contactame .icon-phone{
     color: black;
 }

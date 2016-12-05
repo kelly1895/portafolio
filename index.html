@@ -13,66 +13,44 @@
 </head>
 <body>
 <!-------------------------------------------HEADER--------->
-<header>
-	    <div class="container">
-	        <div class="row">
-	            <nav class="navbar navbar-default">
-                    <div class="container-fluid">
-                        <div class="navbar-header">
-                              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".menu" aria-expanded="false">
-                              <span class="sr-only">Toggle navigation</span>
-                              <span class="icon-bar"></span>
-                              <span class="icon-bar"></span>
-                              <span class="icon-bar"></span>
-                             </button>
-                             <a class="navbar-brand" href="#">MI PORTAFOLIO</a>
-                        </div>
-
-                    <div class="collapse navbar-collapse menu" >
-                        <ul class="nav navbar-nav">
-                            <li><a href="#">SOBRE MÍ</a></li>
-                            <li><a href="#documental">SERVICIOS</a></li>
-                            <li><a href="#hackaton">MIS TRABAJOS</a></li>
-                            <li><a href="#contacto">CONTÁCTAME</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
+ <header>
+        <div class="container-fluid">
+           <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+               <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse"
+                            data-target=".navbar-ex1-collapse">
+                      <span class="sr-only">Desplegar navegación</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">MI PORTAFOLIO</a>
+               </div>
+               <div class="collapse navbar-collapse navbar-ex1-collapse">
+                   <ul class="nav navbar-nav navbar-right">
+                      <li><a href="#Sobre">SOBRE MÍ</a></li>
+                      <li><a href="#servicios">SERVICIOS</a></li>
+                      <li><a href="#Trabajos">MIS TRABAJOS</a></li>
+                      <li><a href="#Contacto">CONTACTAME</a></li>
+                   </ul>
+               </div>
+        
+           </nav>
+         </div>
+</header>
+<section class="hero">
+           <div class="container-fluid">
+           <h1 class="frase text-center">HOLA, MI NOMBRE ES KELLY <br>
+           SOY CODER DE LABORATORIA</h1>
+           <hr>
+           <p class="text-center">Sí estás interesado en desarrollar un sitio web o necesitas un front-end developer, yo te puedo ayudar <br> con los diferentes servicios que brindo.</p>
+           <br>
+           <p class="text-center"><button class="btn">CONOCE MÁS</button></p>
             
-            <div class="info">
-                <h1>HOLA, MI NOMBRE ES KELLY EVELYN <br> CODER DE LABORATORIA</h1>
-                <hr class="linea">
-                <p>Estas interesado en desarrollar un sitio web o necesitas una frontend develeper, yo te puedo <br> ayudar con los diferentes servicios que brindo</p>
-                <button class="btn btn-primary btn-md">CONOCE MÁS</button>
-            </div>
-	    </div>
-     </div>
-  </header>
+           </div>
+</section>
 
-<!------------------------------------------MENU_2--------->
 
-<nav class="navbar navbar-default">
-                    <div class="container-fluid">
-                        <div class="navbar-header">
-                              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".menu" aria-expanded="false">
-                              <span class="sr-only">Toggle navigation</span>
-                              <span class="icon-bar"></span>
-                              <span class="icon-bar"></span>
-                              <span class="icon-bar"></span>
-                             </button>
-                             <a class="navbar-brand" href="#">MI PORTAFOLIO</a>
-                        </div>
-
-                    <div class="collapse navbar-collapse menu" >
-                        <ul class="nav navbar-nav">
-                            <li><a href="#">SOBRE MÍ</a></li>
-                            <li><a href="#documental">SERVICIOS</a></li>
-                            <li><a href="#hackaton">MIS TRABAJOS</a></li>
-                            <li><a href="#contacto">CONTÁCTAME</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
 <!-------------------------------------------INFORMACION--------->
 
 
@@ -83,7 +61,7 @@
              
               <h3>SOBRE MÍ</h3> 
               <hr>
-              <p>Soy egresada de laboratoria sali con el titulo de Frontend develepor Jr desarrollo páginas web en HTML/CSS/Javascript.Soy creativa, inteligente y alegre cosa que transmito en cada una de las webs que desarrollo.</p> 
+              <p>Soy egresada de laboratoria sali con el titulo de Frontend develepor Jr desarrollo páginas web en HTML <br>/CSS/Javascript.Soy creativa, inteligente y alegre cosa que transmito en cada una de las webs que <br> desarrollo.</p> 
             </div>
             
 	   
@@ -96,7 +74,10 @@
         <div class="row">
           <h3>SERVICIOS</h3>
           <hr>
-           <div class="col-md-3">
+          <div class="col-md-2">
+              
+          </div>
+           <div class="col-md-2">
                <div class="icon-container">
                    <i class="icon-diamond"></i>
                    <h4>Desarrollo de plantillas</h4>
@@ -104,7 +85,7 @@
                </div>
            </div> 
            
-           <div class="col-md-3">
+           <div class="col-md-2">
                <div class="icon-container">
                     <i class="icon-paper-plane"></i>
                    <h4>Campañas a Mailing</h4>
@@ -112,7 +93,7 @@
                </div>
            </div> 
            
-           <div class="col-md-3">
+           <div class="col-md-2">
                <div class="icon-container">
                     <i class="icon-newspaper"></i>
                    <h4>Full websites</h4>
@@ -120,13 +101,14 @@
                </div>
            </div> 
            
-           <div class="col-md-3">
+           <div class="col-md-2">
                <div class="icon-container">
                     <i class="icon-heart"></i>
                    <h4>Aplicaciones Android</h4>
                    <p>Desarrollo aplicaciones Android listas para subir a la tienda</p>
                </div>
-           </div> 
+           </div>
+           <div class="col-md-2"></div> 
         </div>
     </div>
 </section>
@@ -134,6 +116,7 @@
 <!-------------------------------------------IMAGENES--------->
 
 <section class="imagenes">
+       <div class="container-fluid">
         <div class="row">
             <div class="col-md-4">
                 <img class="img-responsive" src="/img/1.jpg" alt="">
@@ -150,7 +133,7 @@
                 <img class="img-responsive" src="/img/6.jpg" alt="">
             </div>
         </div>
-        
+        </div>
             
 </section>
     
@@ -167,7 +150,7 @@
         <div class="row">
         <h3>CONTÁCTAME</h3>
         <hr>
-        <p>¿Listo para empezar tu siguiente proyecto?¿Te gusta lo que haz visto? Genial!, dame una llamada o envíame un correo y te respondere lo más rápido que pueda!</p>
+        <p>¿Listo para empezar tu siguiente proyecto?¿Te gusta lo que haz visto? Genial!, dame una llamada <br> o envíame un correo y te respondere lo más rápido que pueda!</p>
         <div class="col-md-6">
            <div class="icon-container">
                <i class="icon-phone"></i>
